@@ -1,0 +1,23 @@
+html, body {
+    margin:0;padding:0;
+}
+.hidden {
+    display: none;
+}
+
+.x-autocomplete-list {
+    border: 1px solid #ccc;
+    padding: 5px;
+    list-style: none;
+    max-width: 300px;
+    position: absolute;
+    margin: 0;
+}
+.x-autocomplete-list li {
+    cursor: pointer;
+    padding: 3px;
+}
+
+.x-autocomplete-list li:hover{
+    background: #f4f4f4;
+}
